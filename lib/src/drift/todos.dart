@@ -27,6 +27,7 @@ class MyDatabase extends _$MyDatabase {
 
   Future<List<Todo>> get allTodoEntries => select(todos).get();
 
+// ignore: slash_for_doc_comments
 /**
  * データの追加処理
  * ntoでデータを追加するテーブルを指定
@@ -44,6 +45,7 @@ class MyDatabase extends _$MyDatabase {
     );
   }
 
+  // ignore: slash_for_doc_comments
   /**
    * データ削除処理
    * delete(todos)でテーブルを指定
